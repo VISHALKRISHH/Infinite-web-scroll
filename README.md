@@ -1,7 +1,6 @@
-# Getting Started with Create React App
+# Implementing Infinite Scrolling in a React Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Infinite scrolling is implemented using the react-infinite-scroll-component library. The InfiniteScroll component handles the logic for detecting when the user scrolls near the end of the page and triggers the next function to load more data. The dataLength prop informs the component of the current number of items displayed, while the hasMore prop controls whether there is more data to load.
 ## Available Scripts
 
 In the project directory, you can run:
